@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121215;
+    color: #EAEAEa;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding: 64px;
+}
+
+
+.memory-post{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.date{
+    color: #bebebf;
+    font-size: 12px;
+}
+
+.post-title{
+    font-size: 32px;
+}
+
+.memory-post img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.post-info{
+    font-size: 18px;
+    color: #bebebf;
+    line-height: 28px;
+}
